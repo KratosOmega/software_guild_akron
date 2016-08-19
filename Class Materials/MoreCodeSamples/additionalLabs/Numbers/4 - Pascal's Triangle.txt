@@ -1,0 +1,8 @@
+Pascal’s Triangle
+Difficulty: 4
+
+Create a program that asks the user for a number greater than 1. Then construct a Pascal’s triangle with that many rows. Pascal’s triangle is a pyramid of numbers where the number immediately below the two above it is the sum of those two numbers. Refer to Wikipedia for Pascal’s Triangle for great examples of how this triangle will look.
+
+Tips
+-------------------------------
+Think in terms of loops here for a moment. Each row can have its values calculated by following a formula like value = previous_column_value * (((row + 1) - column) / column) and then multiplying it against the previous column’s value. Here we know that each row starts with 1, so plug this into the equation above and loop through all the columns of a given row. So the value of the second column of the third row is going to be 1 * (((2 + 1) - 1) / 1) which equals 2 and multiply that by the previous value of that row (1) and we know the result is 2.

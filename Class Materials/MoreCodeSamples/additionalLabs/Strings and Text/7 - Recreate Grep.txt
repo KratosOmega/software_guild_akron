@@ -1,0 +1,16 @@
+Recreate Grep (Pattern Matching)
+Difficulty: 7
+
+Grep has been a long standing command in the world of Linux/Unix. Develop your own grep tool. Look at Grep on Wikipedia for basic usage, flags and format.
+
+http://en.wikipedia.org/wiki/Grep
+
+Tips
+-------------------------------
+This is going to be all about regular expressions. Start simple and work to more complex formats. One of the easiest tests is to be able to specify a word or phrase, and possibly a file list to, then print all lines which contain that word or phrase to that file.
+
+Various regex resources can be found on google.
+
+Additional Difficulty
+-------------------------------
+See how many flags and formats of the original grep you can implement. Can you also specify piping? (Controlling where the output goes... to screen, file, etc)

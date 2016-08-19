@@ -1,0 +1,12 @@
+Mortgage Calculator
+Difficulty: 5
+
+If you take out a loan from a bank of $10,000 with an annual interest rate of %5 percent, how much is your monthly payments over a term of 36 months going to be? What if you pay $50 dollars more a month, how long will it take you then to pay it back then? Create a program which asks the user for a loan amount (principal), the interest rate and the term. Make it generate a payment schedule showing how much the user has to pay per month over the course of the term to pay it all back.
+
+Tips
+-------------------------------
+Keep in mind that this isn’t simply taking the loan amount and dividing it by the term. Interest is accruing and that means that after your first month, you actually have to pay back more than $10,000. As the user makes payments, they are also paying the interest that is growing on that debt. Use some simple numbers to test and make sure that on the final month the balance reaches 0, not a negative number. Banks don’t pay you! The final month’s balance may not be a full payment.
+
+Added Difficulty
+-------------------------------
+Allow the user to specify various term types. Perhaps they can specify years, perhaps they can specify how many months or days. Build in different rates of compounding the interest. A simple addition would also be to show the user at the end how much they really paid over the course of the entire loan.

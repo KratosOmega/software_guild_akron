@@ -1,0 +1,22 @@
+Employee Time Card program
+Difficulty: 5
+
+How much time has Joe worked today? Design a little application which will allow the user to keep track of employee 
+work hours and calculate pay, overtime and any tax deductions that need to be made off of their paycheck. The user 
+will have to enter the user’s name, the hours they worked, their hourly pay and choose between zero or many different 
+types of tax deductions (child support etc). The user must also be able to calculate overtime based off a standard work week.
+
+Tips
+-------------------------------
+The class here is the employee. Each employee will have a name, Social Security/Social Insurance number, their pay per 
+hour and perhaps their date of employment. If you create a menu, which will allow the user of the program to quickly 
+identify which employee they want, it will just be a matter of entering in the work hours and calculating their pay based 
+off the employee class’ payrate property/method. Overtime is easy to calculate once you know how many hours are in the standard 
+work week. Standard pay is hours worked * hourly pay. But this is only up to the standard work week hours. Once over it turns 
+to time and a half (or some other factor) and becomes hours worked * (hourly pay * 1.5). The 1.5 is time and a half, but double 
+time would be 2 and triple would obviously be 3.
+
+
+Added Difficulty
+-------------------------------
+Build in vacation tracking into the employee managing program and reject vacation requests if they have not earned enough time off.

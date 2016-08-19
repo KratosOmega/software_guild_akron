@@ -1,0 +1,18 @@
+Class to Handle Large Numbers
+Difficulty: 6
+
+Remember your classic game consoles?  These were limited in bits per data slot.  For example in an 8 bit system 255 
+was the largest unsigned number.  Create a class that is limited to bytes as the maximum memory space and attempt to 
+create ways to not only store larger values, but also add, subtract, multiply and divide them.  The result of any 
+operation should be a new instance of the large number class.
+
+Tips
+-------------------------------
+One approach is to think of a large integer as a series of numbers much line you would consider a string a series of 
+characters. You can then work on each of these numbers individually as you carry out the various operations. Try working 
+on the subtraction or addition methods first as these should be the easiest to implement.
+
+Added Difficulty
+-------------------------------
+Support some of the other operators such as modulus or see if you can apply various types of formatting to the number 
+via a “ToString” method.

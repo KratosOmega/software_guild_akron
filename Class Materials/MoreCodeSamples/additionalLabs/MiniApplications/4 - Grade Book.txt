@@ -1,0 +1,22 @@
+Student Grade Book Application
+Difficulty: 4
+
+Write an application that keeps track of grades for a classroom of students. Allow the user (who is probably the teacher) 
+enter in various assignments, their point totals and their student’s names. Then allow the user to enter in scores on each 
+of these assignments for each student. The application will then automatically calculate the average score for each student 
+and assign them a letter grade based on that score. Have it also calculate a class average.
+
+
+Tips
+-------------------------------
+You can make the student a class and keep track of things like their name, address, phone and any special notes. The scores 
+can be either implemented as parallel arrays or in a 2D array which may be wiser if you wish to use a simple loop to calculate 
+averages for the student; and class as a whole. Student “Tom” can be stored in Students[0] and Scores[0][0] can be his score for 
+the first assignment and Scores[0][1] can be the score of his second assignment. The class score will then be the sum of all students 
+final scores going down the scores array.
+
+Added Difficulty
+-------------------------------
+Allow the teacher to mark the lowest two scores as “droppable” meaning that they won’t be calculated into the student’s overall 
+average. A teacher may also want to add weights for various assignments. One assignment may be 50 points but makes up 40% of their 
+overall grade for the class.

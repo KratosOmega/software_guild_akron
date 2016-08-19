@@ -1,0 +1,8 @@
+Unit Converter
+Difficulty 2
+
+Develop a simple program which asks the user to first pick a conversion type (temperature, currency, volume, mass or some other unit type) and then asks the user for the unit of measure to convert from and to convert it to. Lastly, ask the user to enter in a value which the program then converts to the target unit. For instance, the user specifies temperature and then specifies Celsius to Kelvins. They then enter in a value for Celsius and the program converts it to Kelvins and prints the result.
+
+Added Difficulty
+-------------------------------
+Allow the user to specify significant digits for the output.

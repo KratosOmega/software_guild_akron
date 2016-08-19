@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/mvc
+                           http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                           http://www.springframework.org/schema/tx 
+                           http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/aop 
+                           http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="com.swcguild.simplebank" />        
+    <context:annotation-config />
+    <!-- Use annotation driven transactions -->
+    <tx:annotation-driven />
+
+    <!-- Pooled connection to MySQL using Commons DBCP -->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/simplebank" />
+        <property name="username" value="root" />
+        <property name="password" value="mysql4me" />
+        <property name="initialSize" value="5" />
+        <property name="maxActive" value="50" />
+    </bean>
+
+    <!-- Transaction Manager -->
+    <bean id="transactionManager"
+              class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+	
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <constructor-arg ref="dataSource" />
+    </bean>
+
+    <bean id="simpleLogger" class="com.swcguild.simplebank.aspects.logging.SimpleLoggingAspect">
+    </bean>
+        
+    <aop:config>
+        <aop:aspect ref="simpleLogger">
+            <aop:pointcut id="transferring" 
+                              expression="execution(* 
+                                            com.swcguild.simplebank.service.SimpleBankService.transferFunds(..)) 
+                                            and args(toAcct, fromAcct, amount)" />
+            <aop:before 
+                pointcut="execution(* com.swcguild.simplebank.service.SimpleBankService.transferFunds(..))"
+                method="logEntry"/>
+            <aop:before 
+                pointcut="execution(* com.swcguild.simplebank.persistence.SimpleBankDAO.addTransfer(..))"
+                method="logEntry" />
+            <aop:before 
+                pointcut="execution(* com.swcguild.simplebank.persistence.SimpleBankDAO.updateAccount(..))"
+                method="logEntry" />
+            <aop:before 
+                pointcut-ref="transferring"
+                method="logTransfer"
+                arg-names="toAcct, fromAcct, amount" />
+                
+            <aop:around 
+                pointcut="execution(* com.swcguild.simplebank.service.SimpleBankService.transferFunds(..))"
+                method="timeMethod" />
+        </aop:aspect>
+    </aop:config>
+    
+        <!-- NOTE: The beans below can be removed if the configuration is switched to 
+               annotation driven.
+    -->
+    <bean id="simpleBankDAO"
+          class="com.swcguild.simplebank.persistence.SimpleBankJdbcDAOImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+    <bean id="simpleBankService"
+          class="com.swcguild.simplebank.service.SimpleBankServiceImpl">
+        <property name="dao" ref="simpleBankDAO" />
+    </bean>
+   
+    <bean id="homeController"
+          class="com.swcguild.simplebank.controller.HomeController">
+        <property name="service" ref="simpleBankService" />
+    </bean>    
+
+
+</beans>

@@ -1,0 +1,16 @@
+Alarm Clock
+Difficulty: 3
+
+Create a program which shows the current time. Allow the user to enter a given time and specify a message. When the clock reaches that time, have it display the message to the user and/or play a series of beeps in the console.
+
+Added Difficulty
+-------------------------------
+Create a queue to handle multiple alarms.  The nearest alarm should be first in the queue and should "pop" (hint) off after it hits.  The program should shut down when the queue is empty.
+
+PreRequisites
+-------------------------------
+Events & Delegates
+
+Tips
+-------------------------------
+http://msdn.microsoft.com/en-us/library/system.timers.timer.aspx

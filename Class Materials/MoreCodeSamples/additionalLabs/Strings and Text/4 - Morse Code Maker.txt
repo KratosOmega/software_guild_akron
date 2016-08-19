@@ -1,0 +1,12 @@
+Morse Code Maker
+Difficulty: 4
+
+Make a program which takes in a string from the user and then outputs that as a string of Morse Code. If you are unfamiliar with Morse Code, you can find it on Wikipedia.
+
+Tips
+-------------------------------
+This is all about mapping a character to its Morse code equivalent. A string is seen as a list of characters in C# so start by looping through these characters one by one and looking them up in a table of characters you create. Map each character to a Morse Code character. That way you can quickly identify which code goes with which letter and print it to screen. 
+
+Added Difficulty
+-------------------------------
+Translate the code generated back into the original text. This may require you to keep track of where spaces were also placed.

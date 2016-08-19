@@ -1,0 +1,17 @@
+Library Catalog
+Difficulty: 5
+
+Build a virtual library where the user can enter books into their collection, give them an ISBN number and allow 
+other users to then check them out. Build a menu to start where the user can add a book, remove a book, check it out, 
+return it or exit the program. The user can locate a book by title or ISBN and check it out for a specific period of time. 
+They can also return a book. If the return is late, they are charged a fee.
+
+Tips
+-------------------------------
+Here the class can be a book and it may have information like the title, abstract, ISBN and info about whether or not it 
+is currently available. If it is not available, it may also hold a return by date. The add book feature simply constructs 
+the objects and puts it into a list to be managed and the delete functionality removes it. This would typically be done by 
+another class that manages books objects. Would the add and delete functions be part of the book or the managing class? When 
+a user checks out a book you will grab the book object, set its status to unavailable and set its return date. When they return 
+it, take the current date, compare it to the return by date and if it is passed, you know to charge the fee. Otherwise, you set 
+the availability back to available and remove the return by date.

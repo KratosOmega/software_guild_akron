@@ -1,0 +1,12 @@
+Decimal to Roman Numerals
+Difficulty: 4
+
+Have the user enter in a simple integer value and it will print the Roman numeral representation of that number. For instance if the user enters 11 it will print out XI. If they input 9 it will print out IX.
+
+Tips
+-------------------------------
+Break the number down by finding the largest round number that will go into it and then translate that to a roman numeral (you can have a list of the constants like “M” being 1000). Then subtract that out of the remaining number and do it again. Keep in mind that numerals on the left subtract from those on the right. The value 9 is not VIIII it is 1 subtracted from 10 or IX.
+
+Added Difficulty
+-------------------------------
+Now write a converter to go from roman to integer.  Configure your program to recognize integer input from roman input.

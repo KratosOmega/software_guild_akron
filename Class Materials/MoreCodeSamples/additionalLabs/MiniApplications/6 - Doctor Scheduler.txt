@@ -1,0 +1,20 @@
+Patient / Doctor Scheduler
+Difficulty: 6
+
+Make a program which allows users to schedule appointments with a doctor. The user can enter information about each 
+doctor and their specialties. Then enter in patients. The program will then allow patients to choose a doctor and an 
+appointment time. Keep in mind that a patient may have more than one doctor. One might be a surgeon and another will be a 
+cardiologist. Don’t allow two patients to book the same time for the same doctor.
+
+Tips
+-------------------------------
+First tip is to identify your objects so we can make them classes. First you have a doctor object, a patient object but 
+is that it? What about the relationship between the doctor and the patient? Maybe there is an object there that relates 
+the patient to the doctor. An appointment object perhaps? A day may be filled with half hour appointment objects and each 
+appointment can have a doctor(s) and a patient associated with it. Explore the relationship between a patient and doctor 
+at a given time before you code anything up. How do you make sure that a doctor is available or not for a given time slot? 
+Think of loops.
+
+Added Difficulty
+-------------------------------
+Build in a mechanism to keep track of patient history and which doctors they saw and when.

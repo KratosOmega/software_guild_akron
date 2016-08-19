@@ -1,0 +1,22 @@
+Stock Market Fetcher
+Difficulty: 8
+
+Write a program which fetches the current market data for a given set of companies (using their market symbols) and outputs that market data to the user’s screen. Various pieces of data can be displayed including: current share price, daytime high/low, volume, last trade date, etc. Ask the user for many different market symbols and a particular stock exchange to pull the data from. Then have the tracker periodically update the user on the status of the stock.
+
+This website has documentation for the parameters that the Yahoo service uses:
+
+http://www.gummy-stuff.org/Yahoo-data.htm
+
+This is an example of an output file:
+http://finance.yahoo.com/d/quotes.csv?s=XOM+BBDb.TO+JNJ+MSFT&f=snd1l1yr
+
+Tips
+-------------------------------
+To download data from a URL, you will need to use the HttpWebRequest and HttpWebResponse classes
+
+    HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
+    HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
+
+    StreamReader sr = new StreamReader(resp.GetResponseStream());
+    string results = sr.ReadToEnd();
+    sr.Close();

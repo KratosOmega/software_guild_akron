@@ -1,0 +1,12 @@
+Write Out Number
+Difficulty: 4
+
+Make a program which asks the user for an integer and then writes out the number in plain English. If they enter in 101, it would print “one hundred one” to the screen.
+
+Tips
+-------------------------------
+We can’t make a direct translation of this due to the placement of each number. So what we must first do is identify each number and its place. Is it in the tens? Hundreds? Thousands? If we take our example of 101, we can identify that the first 1 is in hundreds place by using the modulus operator and integer division. Once we isolate it as hundreds, we can then translate that as “one hundred” and the leftover 1 is identified to be a single value and so it can be just “one”.
+
+Added Difficulty
+-------------------------------
+Support floating point values. The decimal place can be referred to as “and” just like you would write on a personal check. 101.34 would then be “one hundred one and thirty four”.

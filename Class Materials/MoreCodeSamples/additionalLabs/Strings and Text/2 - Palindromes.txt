@@ -1,0 +1,8 @@
+Check If Palindrome
+Difficulty: 2
+
+A palindrome is a string of characters when read from left to right and right to left is exactly the same (ignoring any spaces usually). One of the most well known palindromes is “race car”. No matter which direction you read it, it still reads “race car”. Create a program which checks if a string entered is a palindrome. If it is, print “The string ‘_____’ is a palindrome” where the blank is the string they entered.
+
+Added Difficulty
+-------------------------------
+If you hadn’t done it already, write the reversing function yourself. Don’t rely on a version provided by the language.

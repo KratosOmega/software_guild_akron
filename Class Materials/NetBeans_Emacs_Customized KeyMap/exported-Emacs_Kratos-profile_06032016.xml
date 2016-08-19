@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE keymap-preferences PUBLIC "-//NetBeans//DTD Keymap Preferences 1.0//EN" "http://www.netbeans.org/dtds/KeymapPreferences-1_0.dtd">
+<keymap-preferences>
+    <action id="org-netbeans-modules-javahelp-HelpAction">
+        <shortcut shortcut_string="F1"/>
+    </action>
+    <action id="org-netbeans-modules-tasklist-ui-TaskListAction">
+        <shortcut shortcut_string="D-6"/>
+    </action>
+    <action id="annotations-cycling">
+        <shortcut shortcut_string="SO-C"/>
+    </action>
+    <action id="bookmark-history-popup-next">
+        <shortcut shortcut_string="F2"/>
+    </action>
+    <action id="bookmark-history-popup-previous">
+        <shortcut shortcut_string="S-F2"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-BreakpointsViewAction">
+        <shortcut shortcut_string="SO-5"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-BuildMainProject">
+        <shortcut shortcut_string="A-F11"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-CallStackViewAction">
+        <shortcut shortcut_string="SO-3"/>
+    </action>
+    <action id="org-netbeans-modules-progress-ui-CancelAction">
+        <shortcut shortcut_string="SD-DELETE"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-java-api-ui-ChangeParametersAction">
+        <shortcut shortcut_string="SO-C"/>
+    </action>
+    <action id="org-netbeans-modules-xml-tools-actions-CheckAction">
+        <shortcut shortcut_string="O-F9"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-RebuildMainProject">
+        <shortcut shortcut_string="SA-F11"/>
+    </action>
+    <action id="output-window-clear">
+        <shortcut shortcut_string="D-L"/>
+    </action>
+    <action id="output-window-close">
+        <shortcut shortcut_string="D-F4"/>
+    </action>
+    <action id="CloseAction">
+        <shortcut shortcut_string="SO-W"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-CloseAllDocumentsAction">
+        <shortcut shortcut_string="SD-F4"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-CloseWindowAction">
+        <shortcut shortcut_string="D-F4"/>
+        <shortcut shortcut_string="O-X O-K"/>
+        <shortcut shortcut_string="O-X K"/>
+    </action>
+    <action id="collapse-all-folds">
+        <shortcut shortcut_string="SO-SUBTRACT"/>
+    </action>
+    <action id="collapse-fold">
+        <shortcut shortcut_string="O-MINUS"/>
+        <shortcut shortcut_string="O-SUBTRACT"/>
+    </action>
+    <action id="comment">
+        <shortcut shortcut_string="O-C O-C"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-CompileSingle">
+        <shortcut shortcut_string="F9"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-ContinueAction">
+        <shortcut shortcut_string="O-F5"/>
+    </action>
+    <action id="copy-to-clipboard">
+        <shortcut shortcut_string="COPY"/>
+        <shortcut shortcut_string="D-W"/>
+        <shortcut shortcut_string="O-INSERT"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-api-ui-CopyAction">
+        <shortcut shortcut_string="O-C"/>
+    </action>
+    <action id="org-netbeans-modules-gsf-testrunner-ui-TestCreatorAction">
+        <shortcut shortcut_string="SD-U"/>
+    </action>
+    <action id="cut-to-clipboard">
+        <shortcut shortcut_string="CUT"/>
+        <shortcut shortcut_string="O-W"/>
+    </action>
+    <action id="cut-to-line-begin">
+        <shortcut shortcut_string="O-0 O-K"/>
+    </action>
+    <action id="cut-to-line-end">
+        <shortcut shortcut_string="O-K"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-DebugFileAction">
+        <shortcut shortcut_string="SD-F5"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-DebugMainProjectAction">
+        <shortcut shortcut_string="F5"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-DebugTestFileAction">
+        <shortcut shortcut_string="SD-F6"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-DebuggingViewAction">
+        <shortcut shortcut_string="SO-9"/>
+    </action>
+    <action id="delete-next">
+        <shortcut shortcut_string="DELETE"/>
+        <shortcut shortcut_string="O-D"/>
+    </action>
+    <action id="remove-word-next">
+        <shortcut shortcut_string="D-D"/>
+    </action>
+    <action id="delete-previous">
+        <shortcut shortcut_string="BACK_SPACE"/>
+    </action>
+    <action id="remove-word-previous">
+        <shortcut shortcut_string="O-BACK_SPACE"/>
+    </action>
+    <action id="remove-tab">
+        <shortcut shortcut_string="S-TAB"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-DockWindowAction">
+        <shortcut shortcut_string="SO-D"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-DocumentsAction">
+        <shortcut shortcut_string="O-X B"/>
+        <shortcut shortcut_string="S-F4"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-SwitchToRecentDocumentAction">
+        <shortcut shortcut_string="D-0"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-java-api-ui-EncapsulateFieldAction">
+        <shortcut shortcut_string="SO-E"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-EvaluateAction">
+        <shortcut shortcut_string="D-F9"/>
+    </action>
+    <action id="org-netbeans-core-actions-SystemExit">
+        <shortcut shortcut_string="O-X O-C"/>
+    </action>
+    <action id="expand-all-folds">
+        <shortcut shortcut_string="SO-ADD"/>
+        <shortcut shortcut_string="SO-EQUALS"/>
+        <shortcut shortcut_string="SO-PLUS"/>
+    </action>
+    <action id="expand-fold">
+        <shortcut shortcut_string="O-PLUS"/>
+        <shortcut shortcut_string="O-EQUALS"/>
+        <shortcut shortcut_string="O-ADD"/>
+    </action>
+    <action id="selection-backward">
+        <shortcut shortcut_string="S-LEFT"/>
+    </action>
+    <action id="selection-down">
+        <shortcut shortcut_string="S-DOWN"/>
+    </action>
+    <action id="selection-forward">
+        <shortcut shortcut_string="S-RIGHT"/>
+    </action>
+    <action id="selection-up">
+        <shortcut shortcut_string="S-UP"/>
+    </action>
+    <action id="selection-begin">
+        <shortcut shortcut_string="SO-HOME"/>
+    </action>
+    <action id="selection-begin-line">
+        <shortcut shortcut_string="S-HOME"/>
+    </action>
+    <action id="selection-end">
+        <shortcut shortcut_string="SO-END"/>
+    </action>
+    <action id="selection-end-line">
+        <shortcut shortcut_string="S-END"/>
+    </action>
+    <action id="selection-page-down">
+        <shortcut shortcut_string="S-PAGE_DOWN"/>
+    </action>
+    <action id="selection-next-word">
+        <shortcut shortcut_string="SO-RIGHT"/>
+    </action>
+    <action id="selection-page-up">
+        <shortcut shortcut_string="S-PAGE_UP"/>
+    </action>
+    <action id="selection-previous-word">
+        <shortcut shortcut_string="SO-LEFT"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-java-api-ui-ExtractSuperclassAction">
+        <shortcut shortcut_string="SO-S"/>
+    </action>
+    <action id="org-netbeans-modules-favorites-View">
+        <shortcut shortcut_string="D-3"/>
+    </action>
+    <action id="org-netbeans-modules-java-navigation-actions-ShowHierarchyAction">
+        <shortcut shortcut_string="O-F12"/>
+    </action>
+    <action id="org-netbeans-modules-java-navigation-actions-ShowMembersAction">
+        <shortcut shortcut_string="D-F12"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-physical-tab-action">
+        <shortcut shortcut_string="D-2"/>
+    </action>
+    <action id="output-window-filter">
+        <shortcut shortcut_string="O-G"/>
+    </action>
+    <action id="find">
+        <shortcut shortcut_string="FIND"/>
+    </action>
+    <action id="find-next">
+        <shortcut shortcut_string="D-S"/>
+        <shortcut shortcut_string="F3"/>
+    </action>
+    <action id="find-previous">
+        <shortcut shortcut_string="S-F3"/>
+        <shortcut shortcut_string="O-R"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-api-ui-WhereUsedAction">
+        <shortcut shortcut_string="O-F7"/>
+    </action>
+    <action id="org-netbeans-modules-search-FindInFilesAction">
+        <shortcut shortcut_string="SD-F"/>
+    </action>
+    <action id="org.openide.actions.FindAction">
+        <shortcut shortcut_string="O-S"/>
+        <shortcut shortcut_string="FIND"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-KillAction">
+        <shortcut shortcut_string="S-F5"/>
+    </action>
+    <action id="org-netbeans-modules-editor-hints-FixAction">
+        <shortcut shortcut_string="O-ENTER"/>
+    </action>
+    <action id="fix-imports">
+        <shortcut shortcut_string="SO-F"/>
+    </action>
+    <action id="format">
+        <shortcut shortcut_string="O-BACK_SLASH"/>
+    </action>
+    <action id="goto-declaration">
+        <shortcut shortcut_string="O-PERIOD"/>
+        <shortcut shortcut_string="DO-G"/>
+    </action>
+    <action id="org-netbeans-modules-jumpto-file-FileSearchAction">
+        <shortcut shortcut_string="SO-O"/>
+    </action>
+    <action id="org-openide-actions-GotoAction">
+        <shortcut shortcut_string="O-G"/>
+    </action>
+    <action id="org-netbeans-modules-gototest-GotoOppositeAction">
+        <shortcut shortcut_string="DA-T"/>
+    </action>
+    <action id="org-netbeans-modules-jumpto-type-GoToType">
+        <shortcut shortcut_string="D-O"/>
+    </action>
+    <action id="goto">
+        <shortcut shortcut_string="D-G D-G"/>
+        <shortcut shortcut_string="D-G G"/>
+    </action>
+    <action id="org-netbeans-modules-java-navigation-actions-ShowHierarchyAtCaretAction">
+        <shortcut shortcut_string="SO-F12"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-java-api-ui-InlineAction">
+        <shortcut shortcut_string="SO-N"/>
+    </action>
+    <action id="org-netbeans-modules-i18n-InsertI18nStringAction">
+        <shortcut shortcut_string="SD-J"/>
+    </action>
+    <action id="insert-break">
+        <shortcut shortcut_string="ENTER"/>
+    </action>
+    <action id="insert-tab">
+        <shortcut shortcut_string="O-Q TAB"/>
+    </action>
+    <action id="caret-backward">
+        <shortcut shortcut_string="LEFT"/>
+        <shortcut shortcut_string="O-B"/>
+    </action>
+    <action id="caret-down">
+        <shortcut shortcut_string="O-N"/>
+        <shortcut shortcut_string="DOWN"/>
+        <shortcut shortcut_string="KP_DOWN"/>
+    </action>
+    <action id="caret-forward">
+        <shortcut shortcut_string="O-F"/>
+    </action>
+    <action id="caret-up">
+        <shortcut shortcut_string="O-P"/>
+        <shortcut shortcut_string="KP_UP"/>
+        <shortcut shortcut_string="UP"/>
+    </action>
+    <action id="caret-begin">
+        <shortcut shortcut_string="O-HOME"/>
+        <shortcut shortcut_string="SO-COMMA"/>
+        <shortcut shortcut_string="ESCAPE S-COMMA"/>
+    </action>
+    <action id="caret-line-first-column">
+        <shortcut shortcut_string="O-A"/>
+    </action>
+    <action id="caret-begin-line">
+        <shortcut shortcut_string="HOME"/>
+    </action>
+    <action id="caret-end">
+        <shortcut shortcut_string="O-END"/>
+        <shortcut shortcut_string="ESCAPE S-PERIOD"/>
+        <shortcut shortcut_string="SO-PERIOD"/>
+    </action>
+    <action id="caret-end-line">
+        <shortcut shortcut_string="O-E"/>
+        <shortcut shortcut_string="END"/>
+    </action>
+    <action id="caret-next-word">
+        <shortcut shortcut_string="O-RIGHT"/>
+        <shortcut shortcut_string="D-F"/>
+    </action>
+    <action id="caret-previous-word">
+        <shortcut shortcut_string="D-B"/>
+        <shortcut shortcut_string="O-LEFT"/>
+    </action>
+    <action id="org-netbeans-modules-java-hints-jackpot-refactoring-InvertBooleanAction">
+        <shortcut shortcut_string="SO-I"/>
+    </action>
+    <action id="org-netbeans-modules-javadoc-search-SearchDocAction">
+        <shortcut shortcut_string="S-F1"/>
+    </action>
+    <action id="output-window-larger-font">
+        <shortcut shortcut_string="D-UP"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-jpda-heapwalk-actions-ClassesCountsViewAction">
+        <shortcut shortcut_string="SO-4"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-java-api-ui-IntroduceLocalExtensionAction">
+        <shortcut shortcut_string="SO-X"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-MakeCalleeCurrentAction">
+        <shortcut shortcut_string="DA-UP"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-MakeCallerCurrentAction">
+        <shortcut shortcut_string="DA-DOWN"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-MaximizeWindowAction">
+        <shortcut shortcut_string="S-ESCAPE"/>
+        <shortcut shortcut_string="O-X 1"/>
+    </action>
+    <action id="org-netbeans-modules-java-navigation-actions-ShowMembersAtCaretAction">
+        <shortcut shortcut_string="SD-F12"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-java-api-ui-InnerToOuterAction">
+        <shortcut shortcut_string="SO-L"/>
+    </action>
+    <action id="adjust-caret-center">
+        <shortcut shortcut_string="O-L"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-api-ui-MoveAction">
+        <shortcut shortcut_string="D-M"/>
+    </action>
+    <action id="org-netbeans-modules-navigator-ShowNavigatorAction">
+        <shortcut shortcut_string="D-7"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-AddBreakpointAction">
+        <shortcut shortcut_string="SD-F8"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-NewFile">
+        <shortcut shortcut_string="DO-N"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-NewProject">
+        <shortcut shortcut_string="SD-N"/>
+        <shortcut shortcut_string="O-X F"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-AddWatchAction">
+        <shortcut shortcut_string="SD-F7"/>
+    </action>
+    <action id="org-netbeans-core-actions-JumpNextAction">
+        <shortcut shortcut_string="O-X BACK_QUOTE"/>
+        <shortcut shortcut_string="F12"/>
+    </action>
+    <action id="org-netbeans-core-actions-NextViewCallbackAction">
+        <shortcut shortcut_string="SO-RIGHT"/>
+    </action>
+    <action id="word-match-next">
+        <shortcut shortcut_string="O-SLASH"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-NextTabAction">
+        <shortcut shortcut_string="A-RIGHT"/>
+    </action>
+    <action id="org-netbeans-modules-openfile-OpenFileAction">
+        <shortcut shortcut_string="O-X O-F"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-OpenProject">
+        <shortcut shortcut_string="SD-O"/>
+    </action>
+    <action id="org-netbeans-modules-openfile-RecentFileAction">
+        <shortcut shortcut_string="SD-T"/>
+    </action>
+    <action id="org-netbeans-modules-dlight-terminal-action-OpenInTerminalAction">
+        <shortcut shortcut_string="SO-K"/>
+    </action>
+    <action id="org-netbeans-core-io-ui-IOWindowAction">
+        <shortcut shortcut_string="D-4"/>
+    </action>
+    <action id="page-down">
+        <shortcut shortcut_string="PAGE_DOWN"/>
+        <shortcut shortcut_string="D-DOWN"/>
+        <shortcut shortcut_string="O-V"/>
+    </action>
+    <action id="page-up">
+        <shortcut shortcut_string="D-UP"/>
+        <shortcut shortcut_string="D-V"/>
+        <shortcut shortcut_string="PAGE_UP"/>
+    </action>
+    <action id="org-netbeans-modules-palette-ShowPaletteAction">
+        <shortcut shortcut_string="SO-8"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-java-api-ui-IntroduceParameterAction">
+        <shortcut shortcut_string="SO-P"/>
+    </action>
+    <action id="paste-from-clipboard">
+        <shortcut shortcut_string="PASTE"/>
+        <shortcut shortcut_string="O-Y"/>
+        <shortcut shortcut_string="S-INSERT"/>
+    </action>
+    <action id="PasteAction">
+        <shortcut shortcut_string="SO-V"/>
+    </action>
+    <action id="org-openide-actions-PopupAction">
+        <shortcut shortcut_string="S-F10"/>
+        <shortcut shortcut_string="CONTEXT_MENU"/>
+    </action>
+    <action id="org-netbeans-core-actions-JumpPrevAction">
+        <shortcut shortcut_string="S-F12"/>
+    </action>
+    <action id="org-netbeans-core-actions-PreviousViewCallbackAction">
+        <shortcut shortcut_string="SO-LEFT"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-PreviousTabAction">
+        <shortcut shortcut_string="A-LEFT"/>
+    </action>
+    <action id="org-netbeans-modules-print-action-PrintAction">
+        <shortcut shortcut_string="SDO-P"/>
+    </action>
+    <action id="org-netbeans-modules-profiler-actions-ProfileMainProject">
+        <shortcut shortcut_string="O-F2"/>
+    </action>
+    <action id="org-netbeans-modules-profiler-actions-SelfSamplerAction">
+        <shortcut shortcut_string="SA-Y"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-logical-tab-action">
+        <shortcut shortcut_string="D-1"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-GlobalPropertiesAction">
+        <shortcut shortcut_string="SD-7"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-java-api-ui-PullUpAction">
+        <shortcut shortcut_string="SO-U"/>
+    </action>
+    <action id="org-netbeans-modules-quicksearch-QuickSearchAction">
+        <shortcut shortcut_string="D-I"/>
+    </action>
+    <action id="reindent-line">
+        <shortcut shortcut_string="TAB"/>
+    </action>
+    <action id="redo">
+        <shortcut shortcut_string="D-Z"/>
+        <shortcut shortcut_string="SA-MINUS"/>
+    </action>
+    <action id="in-place-refactoring">
+        <shortcut shortcut_string="D-R"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-api-ui-RenameAction">
+        <shortcut shortcut_string="O-R"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-Rerun">
+        <shortcut shortcut_string="D-F11"/>
+    </action>
+    <action id="replace">
+        <shortcut shortcut_string="SO-5"/>
+    </action>
+    <action id="org-netbeans-modules-java-hints-jackpot-refactoring-ReplaceConstructorWithBuilderAction">
+        <shortcut shortcut_string="SO-B"/>
+    </action>
+    <action id="org-netbeans-modules-java-hints-jackpot-refactoring-ReplaceConstructorWithFactoryAction">
+        <shortcut shortcut_string="SO-F"/>
+    </action>
+    <action id="make-getter">
+        <shortcut shortcut_string="O-U G"/>
+    </action>
+    <action id="make-setter">
+        <shortcut shortcut_string="O-U S"/>
+    </action>
+    <action id="make-is">
+        <shortcut shortcut_string="O-U I"/>
+    </action>
+    <action id="org-netbeans-modules-search-ReplaceInFilesAction">
+        <shortcut shortcut_string="SD-H"/>
+    </action>
+    <action id="org.openide.actions.ReplaceAction">
+        <shortcut shortcut_string="O-H"/>
+    </action>
+    <action id="org-netbeans-modules-profiler-actions-ResetResultsAction">
+        <shortcut shortcut_string="SA-F2"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-RunSingle">
+        <shortcut shortcut_string="S-F6"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-RunMainProject">
+        <shortcut shortcut_string="F6"/>
+    </action>
+    <action id="org-netbeans-modules-db-sql-editor-ui-actions-RunSQLAction">
+        <shortcut shortcut_string="SD-E"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-RunToCursorAction">
+        <shortcut shortcut_string="F4"/>
+    </action>
+    <action id="org-netbeans-modules-db-sql-editor-ui-actions-SQLHistoryAction">
+        <shortcut shortcut_string="SDA-H"/>
+    </action>
+    <action id="org-netbeans-modules-refactoring-api-ui-SafeDeleteAction">
+        <shortcut shortcut_string="O-DELETE"/>
+    </action>
+    <action id="org-openide-actions-SaveAction">
+        <shortcut shortcut_string="O-X O-S"/>
+    </action>
+    <action id="org-openide-actions-SaveAllAction">
+        <shortcut shortcut_string="O-X S"/>
+    </action>
+    <action id="output-window-save-as">
+        <shortcut shortcut_string="D-S"/>
+    </action>
+    <action id="scroll-down">
+        <shortcut shortcut_string="O-UP"/>
+    </action>
+    <action id="adjust-window-center">
+        <shortcut shortcut_string="O-U O-L"/>
+    </action>
+    <action id="scroll-up">
+        <shortcut shortcut_string="O-DOWN"/>
+    </action>
+    <action id="org-netbeans-modules-search-ResultViewOpenAction">
+        <shortcut shortcut_string="SD-0"/>
+    </action>
+    <action id="select-all">
+        <shortcut shortcut_string="O-X H"/>
+    </action>
+    <action id="org-netbeans-modules-favorites-Select">
+        <shortcut shortcut_string="SD-3"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-SelectInFiles">
+        <shortcut shortcut_string="SD-2"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-SelectInProjects">
+        <shortcut shortcut_string="SD-1"/>
+    </action>
+    <action id="org-netbeans-core-ide-ServicesTabAction">
+        <shortcut shortcut_string="D-5"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-SessionsViewAction">
+        <shortcut shortcut_string="SO-6"/>
+    </action>
+    <action id="shift-line-left">
+        <shortcut shortcut_string="O-0 O-X TAB"/>
+    </action>
+    <action id="shift-line-right">
+        <shortcut shortcut_string="O-X TAB"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-MoveWindowLeftAction">
+        <shortcut shortcut_string="SDO-LEFT"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-MoveWindowRightAction">
+        <shortcut shortcut_string="SDO-RIGHT"/>
+    </action>
+    <action id="completion-show">
+        <shortcut shortcut_string="O-SPACE"/>
+    </action>
+    <action id="documentation-show">
+        <shortcut shortcut_string="SO-SPACE"/>
+    </action>
+    <action id="tooltip-show">
+        <shortcut shortcut_string="D-P"/>
+    </action>
+    <action id="org-netbeans-core-windows-actions-ShowEditorOnlyAction">
+        <shortcut shortcut_string="SD-ENTER"/>
+    </action>
+    <action id="output-window-smaller-font">
+        <shortcut shortcut_string="D-DOWN"/>
+    </action>
+    <action id="split-line">
+        <shortcut shortcut_string="O-ENTER"/>
+    </action>
+    <action id="start-macro-recording">
+        <shortcut shortcut_string="O-X S-9"/>
+    </action>
+    <action id="start-new-line">
+        <shortcut shortcut_string="S-ENTER"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-StepIntoAction">
+        <shortcut shortcut_string="F7"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-StepIntoNextMethodAction">
+        <shortcut shortcut_string="S-F7"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-StepOutAction">
+        <shortcut shortcut_string="D-F7"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-StepOverAction">
+        <shortcut shortcut_string="F8"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-StepOperationAction">
+        <shortcut shortcut_string="S-F8"/>
+    </action>
+    <action id="stop-macro-recording">
+        <shortcut shortcut_string="O-X S-0"/>
+    </action>
+    <action id="toggle-case-identifier-begin">
+        <shortcut shortcut_string="O-C"/>
+    </action>
+    <action id="org-netbeans-modules-profiler-actions-TakeSnapshotAction">
+        <shortcut shortcut_string="A-F2"/>
+    </action>
+    <action id="org-netbeans-modules-tasks-ui-DashboardTopComponent">
+        <shortcut shortcut_string="SD-6"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-TestSingle">
+        <shortcut shortcut_string="D-F6"/>
+    </action>
+    <action id="org-netbeans-modules-project-ui-TestProject">
+        <shortcut shortcut_string="O-F6"/>
+    </action>
+    <action id="org-netbeans-modules-gsf-testrunner-ui-ResultWindowOpenAction">
+        <shortcut shortcut_string="SA-R"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-ThreadsViewAction">
+        <shortcut shortcut_string="SO-7"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-SetCurrentThreadFromHistoryAction">
+        <shortcut shortcut_string="SO-T"/>
+    </action>
+    <action id="to-lower-case">
+        <shortcut shortcut_string="O-X O-L"/>
+    </action>
+    <action id="to-upper-case">
+        <shortcut shortcut_string="O-X O-U"/>
+    </action>
+    <action id="bookmark-toggle">
+        <shortcut shortcut_string="D-F2"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-ToggleBreakpointAction">
+        <shortcut shortcut_string="D-F8"/>
+    </action>
+    <action id="org-netbeans-modules-profiler-ppoints-ui-ToggleProfilingPointAction">
+        <shortcut shortcut_string="SO-F2"/>
+    </action>
+    <action id="toggle-typing-mode">
+        <shortcut shortcut_string="INSERT"/>
+    </action>
+    <action id="uncomment">
+        <shortcut shortcut_string="O-0 O-C O-C"/>
+    </action>
+    <action id="undo">
+        <shortcut shortcut_string="UNDO"/>
+        <shortcut shortcut_string="O-Z"/>
+    </action>
+    <action id="org-netbeans-modules-xml-tools-actions-ValidateAction">
+        <shortcut shortcut_string="SO-F9"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-LocalsViewAction">
+        <shortcut shortcut_string="SO-1"/>
+    </action>
+    <action id="org-netbeans-modules-debugger-ui-actions-WatchesViewAction">
+        <shortcut shortcut_string="SO-2"/>
+    </action>
+    <action id="output-window-wrap">
+        <shortcut shortcut_string="D-R"/>
+    </action>
+    <action id="org-netbeans-modules-xsl-actions-TransformAction">
+        <shortcut shortcut_string="DO-T"/>
+    </action>
+    <action id="toggle-comment">
+        <shortcut shortcut_string="O-SEMICOLON"/>
+    </action>
+</keymap-preferences>

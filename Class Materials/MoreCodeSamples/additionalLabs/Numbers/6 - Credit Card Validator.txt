@@ -1,0 +1,12 @@
+Credit Card Validator
+Difficulty: 6
+
+How do we know that the credit card number someone entered on our store is correct? How do we know it is valid for the type of credit card they specified? Create a program which allows the user to specify a credit card number and the card type (Visa, Mastercard, American Express or Discover) and return a message if the number is valid or an error message if the credit card number is invalid.
+
+Tips
+-------------------------------
+This program is all based around the idea of the Luhn algorithm (Check Wikipedia for “Luhn Algorithm”). This algorithm can be used to validate credit card numbers. First make sure the number they entered is the correct number of digits and of the correct number prefix (Check out Wikipedia for “Bank card number” for more information). Once you determine the correct prefix and the right number of digits, you can then try applying the algorithm.
+
+Added Difficulty
+-------------------------------
+Also accept the expiration date in MMYY format and determine whether the card is expired or not.

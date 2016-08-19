@@ -1,0 +1,11 @@
+Title: Tip Calculator
+Difficulty: 1
+
+Create a program which asks the user to enter in a dollar value and the tip percentage. Then print out the subtotal along with the total plus tip (grand total).
+
+This is a very simple program where you collect the value from the user, have the user enter in a tip value, add the tip to the total and print out the result. If the value the user enters is $10.00 and the tip is 15% then the total is $10.15.
+
+Output:
+Amount: $10.00
+Tip:     $1.50
+Total:  $11.50

@@ -1,0 +1,21 @@
+Hotel Reservation System
+Difficulty: 6
+
+Create a program which allows a user to take reservations for hotel accommodations. The user can enter a person’s name, 
+phone, their length of stay and assign them to a designated room of their choosing. The system should prevent two different 
+people from booking the same room.
+
+Tips
+-------------------------------
+Think of this in terms of classes and arrays. A hotel can be thought of as an array of rooms. This array can be an array of 
+Guest classes. You would store the guest's name and other attributes within the Guest class and then store that in the array 
+at the designated room. If an array slot is empty, no one has booked the room.  
+
+Consider how to handle rooms at different price points with different restrictions (smoking/non smoking, max occupancy, etc) 
+The array of rooms in rooms[0] may be your $69 dollar a night rooms while rooms in the row rooms[5] might be executive rooms. 
+These room arrays can be filled with room objects which have attributes like “non smoking” or “air conditioning”.
+
+Added Difficulty
+-------------------------------
+Display which rooms are available/taken for a given date then
+display which rooms are taken for a given date range

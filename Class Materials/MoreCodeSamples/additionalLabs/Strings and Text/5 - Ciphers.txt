@@ -1,0 +1,8 @@
+Ciphers!
+Difficulty: 5
+
+Create a program which implements the Vigenere, Vernam, and Caesar encryption methods. Ask the user for a string, or file to read, and have the text run through each of these ciphers. Let the use choose whether to output the data to the screen or back to another file.
+
+Tips
+-------------------------------
+First stop, Wikipedia to learn how these ciphers work. Start with the Caesar cipher which is essentially a shifting of the alphabet. Take the letter “a” and shift it down 4 and you have “e” and a “b” becomes the letter “f”. Once you have this program working, then you can move onto the Vigenere cipher which uses shifts to come up with a more elaborate system of encryption.

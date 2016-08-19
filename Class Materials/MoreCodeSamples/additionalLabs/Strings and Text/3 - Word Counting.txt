@@ -1,0 +1,14 @@
+Word Counting
+Difficulty: 2
+
+Write a program which asks the user for a string and then counts how many words are in that string. For example if they write “This is my first program” the program would print out “There are 5 words”.
+
+Tips
+-------------------------------
+The split function is your friend
+
+Added Difficulty
+-------------------------------
+Along with word counter, count the number of sentences and paragraphs.
+
+Implement your own split function

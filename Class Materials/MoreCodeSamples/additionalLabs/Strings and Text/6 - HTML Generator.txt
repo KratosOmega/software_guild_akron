@@ -1,0 +1,12 @@
+Text to HTML Generator
+Difficulty: 6
+
+Come up with a simple program that will allow a user to enter in various bits of text data. Have it then generate the HTML equivalent or create a HTML page based on the data. The idea here is to give the user the option of writing simple text data and it would generate the code afterward. For instance, if the user enters in a title and a few paragraphs, the program would generate the necessary <h1>, <p>, <quote>, bulleting tags needed to format that text on the web.
+
+Tips
+-------------------------------
+Most tags in HTML are used for wrapping text (aka markup the text). Think of a paragraph and how to show one on HTML. You would wrap this text in <p></p> tags. The trick is to parse what they have specified in the program, identify the pieces like a paragraph or the title and then wrap it in the appropriate tag. 
+
+Added Difficulty
+-------------------------------
+Support more complex formatting like alignment, indenting, and styles.
