@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+          http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+          http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+">
+    <bean id="addressBook" class="com.sg.addressbookv2.dao.AddressBookImplementation"/>
+    <bean id="address" class="com.sg.addressbookv2.dto.Address">
+        <constructor-arg index="0" value="First Name"/>
+        <constructor-arg index="1" value="Last Name"/>
+        <constructor-arg index="2" value="House Number"/>
+        <constructor-arg index="3" value="Streat"/>
+        <constructor-arg index="4" value="City"/>
+        <constructor-arg index="5" value="State"/>
+        <constructor-arg index="6" value="Zip Code"/>
+        <constructor-arg index="7" value="Country"/>
+    </bean>
+</beans>

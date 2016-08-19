@@ -1,0 +1,5 @@
+Kratos::Omega::123::Street1::City1::State2::ZipCode1::Country1
+Xin::Li::234::Street2::City2::State2::ZipCode2::Country1
+Clarice::Li::345::Street3::City3::State3::ZipCode1::Country1
+Rongtao::Li::456::Street4::City2::State2::ZipCode2::Country1
+Juan::Li::567::Street5::City1::State2::ZipCode1::Country1

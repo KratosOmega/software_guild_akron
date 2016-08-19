@@ -1,0 +1,45 @@
+.toLeft{
+    text-align: left;  
+}
+
+.toCenter{
+    text-align: center;  
+}
+
+.equalLengthPre {
+    min-width: 200px;
+}
+
+.equalLengthPost {
+    min-width: 50px;
+}
+
+.tbDescription{
+    width: 50%;
+    font-weight: bold;
+}
+
+.tbValue{
+    width: 50%;
+}
+
+#type{
+    width: 400px;
+}
+
+#convertFrom,
+#convertTo{
+    width: 190px;
+}
+
+#inputSection{
+    width:400px;
+}
+
+#inputSection_text{
+    text-align: left;
+}
+
+#inputSection_button{
+    text-align: right
+}

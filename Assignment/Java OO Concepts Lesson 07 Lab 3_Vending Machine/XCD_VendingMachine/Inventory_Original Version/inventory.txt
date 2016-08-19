@@ -1,0 +1,6 @@
+Protein Bar::3.25::10
+Chocolate::1.25::10
+Beef Jerky::2.25::10
+Doritos::2.25::10
+Skittles::2.25::10
+Twix::1.25::10

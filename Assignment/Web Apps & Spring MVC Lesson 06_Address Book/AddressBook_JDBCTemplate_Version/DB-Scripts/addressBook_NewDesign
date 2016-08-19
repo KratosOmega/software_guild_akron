@@ -1,0 +1,39 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: AddressBook
+--
+DROP DATABASE IF EXISTS AddressBook;
+
+CREATE DATABASE AddressBook;
+
+USE AddressBook;
+
+-- -----------------------------------------------
+
+--
+-- Table structure for table [Address]
+--
+
+CREATE TABLE IF NOT EXISTS ab_address(
+  address_id INT(11) NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(20) NOT NULL,
+  last_name VARCHAR(20) NOT NULL,
+  house_number VARCHAR(10) NOT NULL,
+  street VARCHAR(20) NOT NULL,
+  city VARCHAR(20) NOT NULL,
+  state VARCHAR(2) NOT NULL,
+  zipcode VARCHAR(5) NOT NULL,
+  country VARCHAR(15) NOT NULL,
+  PRIMARY KEY (address_id)
+) ENGINE = InnoDB DEFAULT CHARSET = latin1 AUTO_INCREMENT = 1;
+
+/* Load Some Test Data */
+INSERT INTO ab_address(first_name, last_name, house_number, street, city, state, zipcode, country) 
+VALUES ('Xin', 'Li', '712', 'Clifftop Drive', 'Gaithersburg', 'MD', '20878', 'USA')
+
+
+
+
+

@@ -1,0 +1,80 @@
+.toLeft{
+    text-align: left;  
+}
+
+.toCenter{
+    text-align: center;  
+}
+
+.equalLengthPre {
+    min-width: 200px;
+}
+
+.equalLengthPost {
+    min-width: 50px;
+}
+
+.tbDescription{
+    width: 50%;
+    font-weight: bold;
+}
+
+.tbValue{
+    width: 50%;
+}
+
+#type{
+    width: 400px;
+}
+
+#convertFrom,
+#convertTo{
+    width: 190px;
+}
+
+#inputSection{
+    width:400px;
+}
+
+#inputSection_text{
+    text-align: left;
+}
+
+#inputSection_button{
+    text-align: right
+}
+
+#programSelection{
+    width:300px;
+}
+
+/* override bootstrap's nav-pills to center the nav bar*/
+.nav-tabs > li, 
+.nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, 
+.nav-pills {
+    text-align:center;
+}
+/* override bootstrap's nav-pills to center the nav bar*/
+
+
+.reduceWidth{
+    width: 500px;
+}
+
+
+#programIntroduction{
+    width: 500px;
+    height: 500px;
+    background-image: url("../img/welcome.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin:0 auto;
+}
+

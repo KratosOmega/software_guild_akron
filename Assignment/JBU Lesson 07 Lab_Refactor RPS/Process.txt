@@ -1,0 +1,18 @@
+1. Plan your methods (check with instructor after all methods have been planned): 
+   a. How many?
+   => 3 methods
+   b. Where will they be used? & c. Return types? & d. Parameters? & e. Names?
+   =>
+    - String playGames(int rounds)
+      - it will be used in the pvsm
+    - int compareRPS(int myRPS, int compRPS)
+      - it will be used inside of the playGames method
+    - String summary(int userWins, int computerWins, int ties)
+      - it will be used inside of the playGames method
+
+2. Flowchart each method (check with instructor after all methods have been flowcharted): 
+   a. What is the internal logic? & b. What are the error conditions?
+   => Check out the RefactorRPS_Flowchart
+
+3. Implement and test (check with instructor after all methods have been implemented and tested)
+   => Check out the RefactorRPS.java

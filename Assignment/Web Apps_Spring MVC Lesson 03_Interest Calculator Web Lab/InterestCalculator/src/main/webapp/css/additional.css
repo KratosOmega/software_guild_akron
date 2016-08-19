@@ -1,0 +1,15 @@
+.toLeft{
+  text-align: left;  
+}
+
+.toCenter{
+  text-align: center;  
+}
+
+.equalLengthPre {
+    min-width: 110px;
+}
+
+.equalLengthPost {
+    min-width: 50px;
+}
