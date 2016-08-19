@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Site Editor | YOGH</title>
+		<!-- ${pageContext.request.contextPath} -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/editPageStyles.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="top_navbar">
+			<nav id="topbar" class="navbar navbar-fixed-top">
+				<a class="navbar-brand fade" href="initialEditPage.html">Site Editor</a>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-item"><a class="nav-link" href="#">LOGIN</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="side_navbar" class="hidden-xs hidden-sm">
+			<div id="navbar_spacing"></div>
+			<div class="side-link"><center>Posts</div>
+			<div class="side-link"><center>Pages</div>
+			<div class="side-link"><center>Comments</div>
+			<div class="side-link"><center>Users</div>
+		</div>
+
+		<div id="posts-div" class="col-xs-12 col-sm-12 col-md-11 col-lg-11">
+			<br><br>
+			<div class="border-div col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="content-div col-xs-10 col-sm-10 col-md-10 col-lg-10">
+				<br>
+				<div id="new-post-button">NEW POST</div>
+				<br><br><br>
+				<div id="post-lister">
+					<center>
+					<br>
+					<!-- each post div gets put into here -->
+					<div id="no-posts">NO POSTS YET...</div>
+					<br>
+					</center>
+				</div>
+				<br>
+			</div>
+			<div class="border-div col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+		</div>
+
+
+		<script src="../js/jquery-1.11.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/editPageVisualScript.js"></script>
+	</body>
+</html>

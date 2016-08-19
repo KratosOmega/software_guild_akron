@@ -1,0 +1,8 @@
+#topbar{
+	background-color:black;
+}
+#topbar .navbar-brand{
+	font-variant:small-caps;
+	color:red;
+	
+}

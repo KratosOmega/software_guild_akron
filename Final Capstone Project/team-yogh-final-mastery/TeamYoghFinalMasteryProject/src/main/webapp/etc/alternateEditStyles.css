@@ -1,0 +1,307 @@
+/* TOP NAVBAR */
+#top-navbar{
+	background-color:black;
+	height:50px;
+	z-index:11;
+}
+#topbar-brand{
+	font-variant:small-caps;
+	color:white;
+	font-size:28px;
+	font-family:sans-serif;
+	opacity:.5;
+	line-height:50px;
+	padding-left:15px;
+}
+#topbar-brand:hover{
+	opacity:1;
+	cursor:pointer;
+}
+.topbar-item{
+	float:right;
+	color:white;
+	opacity:.5;
+	background-color:none;
+	text-align:center;
+	line-height:50px;
+	position:absolute;
+	right:15px;
+	padding-right:10px;
+	padding-left:10px;
+	font-weight:bold;
+}
+.topbar-item:hover{
+	opacity:1;
+	cursor:pointer;
+}
+
+
+/* OPTIONS NAVBAR */
+#options-navbar{
+	width:100%;
+	height:50px;
+	background-color:#262626;
+	z-index:10;
+}
+#new-post{
+	position:absolute;
+	left:0%;
+}
+#new-page{
+	position:absolute;
+	left:25%;
+}
+#users{
+	position:absolute;
+	left:50%;
+}
+#search{
+	position:absolute;
+	left:75%;
+}
+.options-item{
+	width:25%;
+	display:inline-block;
+	color:white;
+	text-align:center;
+	line-height:50px;
+}
+.options-item:hover{
+	background-color:white;
+	color:black;
+	cursor:pointer;
+	font-weight:bold;
+}
+.active{
+	background-color:white;
+	font-weight:bold;
+	color:black;
+	/*text-shadow:0px 0px 10px dodgerblue;*/
+}
+
+
+/* POSTS/PAGES LISTERS */
+.lister-title{
+	text-align:center;
+	padding-top:20px;
+	font-size:30px;
+	padding-bottom:20px;
+	background-color:rgba(255,255,255,0.3);
+	color:rgba(0,0,0,0.8);
+	box-shadow:0 8px 7px rgba(0,0,0,0.4);
+	z-index:8;
+}
+.lister{
+	position:relative;
+	height:90%;
+	width:100%;
+	background-color:black;
+	overflow-y:scroll;
+}
+/* scrollbar */
+::-webkit-scrollbar{
+	width:15px;
+}
+::-webkit-scrollbar-track{
+	background-color:black;
+}
+::-webkit-scrollbar-thumb{
+	background-color:white;
+}
+
+
+/* POSTS LISTER */
+#posts-lister{
+	background-color:#d9d9d9;
+	position:absolute;
+	left:0%;
+	height:84%;
+	width:50%;
+	bottom:5%;
+}
+.post{
+	width:100%;
+	height:150px;
+	background-color:white;
+	/*background-image:url("../etc/post_background.png");*/
+	background-size:100%;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	border:2px solid black;
+}
+.post-title{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	font-size:40px;
+	font-weight:bold;
+	font-family:monospace;
+	text-shadow:2px 2px black;
+}
+.post-title:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.post-author{
+	padding-left:30px;
+	font-size:20px;
+	text-shadow:1px 1px black;
+	font-weight:bold;
+}
+.post-author:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.post-date{
+	float:right;
+	padding-top:20px;
+	padding-right:20px;
+	font-size:20px;
+}
+.post-options{
+	float:right;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.post-options button{
+	height:35px;
+	width:35px;
+	margin-right:20px;
+	/* temporary */
+	font-weight:bold;
+	font-size:20px;
+	/*color:white;*/
+	opacity:0.5;
+}
+.post-options button:hover{
+	opacity:1;
+}
+.approve{
+	color:green;
+	background-color:white;
+	border:2px solid green;
+}
+.edit{
+	color:orange;
+	background-color:white;
+	border:2px solid orange;
+}
+.comments{
+	color:gray;
+	background-color:white;
+	border:2px solid gray;
+}
+.delete{
+	color:red;
+	background-color:white;
+	border:2px solid red;
+}
+.off{
+	background-color:black;
+}
+
+
+/* PAGES LISTER */
+#pages-lister{
+	background-color:#d9d9d9;
+	position:absolute;
+	left:50%;
+	height:84%;
+	width:50%;
+	bottom:5%;
+}
+
+
+/* MEDIA: SMALL/MOBIEL */
+@media screen and (max-width:420px){
+	/* listers */
+	.lister-title{
+		padding-top:10px;
+		padding-bottom:10px;
+		font-size:20px;
+	}
+	#posts-lister{
+		position:absolute;
+		bottom:0px;
+		height:80%;
+	}
+	#pages-lister{
+		position:absolute;
+		bottom:0px;
+		height:80%;
+	}
+
+	/* posts */
+	.post{
+		background-size:200%;
+	}
+	.post-title{
+		font-size:20px;
+		padding-top:30px;
+	}
+	.post-author{
+		font-size:15px;
+	}
+	.post-date{
+		font-size:15px;
+		padding-top:10px;
+	}
+}
+
+
+
+/* --------------------------------------------------------------------------- */
+/* NEW POST PAGE */
+/* --------------------------------------------------------------------------- */
+#new-post-form{
+	background-color:whitesmoke;
+	width:80%;
+}
+#title-input{
+	width:80%;
+	height:45px;
+	font-size:35px;
+}
+.preview{
+	background-color:white;
+	opacity:0.4;
+	color:black;
+	border:none;
+	padding:10px 10px;
+	border-radius:30px;
+	text-align:center;
+	margin-right:10px;
+	font-size:25px;
+}
+.preview:hover{
+	opacity:1;
+	color:orange;
+}
+.submit{
+	background-color:white;
+	opacity:0.4;
+	color:black;
+	border:none;
+	padding:10px 10px;
+	border-radius:30px;
+	text-align:center;
+	margin-left:10px;
+	font-size:25px;
+}
+.submit:hover{
+	opacity:1;
+	color:green;
+}
+#post-tags{
+	width:80%;
+	font-size:20px;
+}
+.bootstrap-tagsinput{
+	width:80%;
+}
+/*.bootstrap-tagsinput{
+	width:80%;
+	height:50px;
+	font-size:30px;
+	background-color:black;
+}*/

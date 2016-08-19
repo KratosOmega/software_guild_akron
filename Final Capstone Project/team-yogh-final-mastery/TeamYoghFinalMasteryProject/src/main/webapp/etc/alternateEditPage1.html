@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home | Site Editor</title>
+
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="alternateEditStyles.css" rel="stylesheet">
+</head>
+<body>
+	<div id="top-navbar" class="fixed-top">
+		<span id="topbar-brand" class="fade" href="alternateEditPage1.html" title="home">YOGH|Site Editor</span>
+		<span class="topbar-item fade">LOGIN</span>
+	</div>
+	<div id="options-navbar" class="fixed-top">
+		<div id="new-post" class="options-item">New Post</div>
+		<div id="new-page" class="options-item">New Page</div>
+		<div id="users" class="options-item">Users</div>
+		<div id="search" class="options-item">Search</div>
+	</div>
+
+	<div id="admin-home">
+	<div id="posts-lister">
+		<div class="lister-title">POSTS</div>
+		<div id="post-list" class="lister">
+			<!-- test divs for where posts will appear -->
+			<!-- sample div for post -->
+			<div class="post">
+				<div class="post-date">08/05/2016</div>
+				<div class="post-title" style="text-shadow:2px 2px red">Post Title</div>
+				<!-- title character limit should be around 30/35 -->
+				<!-- if approved, title is Green; if, unapproved, title is Orange? -->
+				<div class="post-author">Author420</div>
+				<div class="post-options hidden-sm hidden-xs">
+					<button class="approve fade" title="approve">X</button>
+					<button class="edit fade" title="edit">X</button>
+					<button class="comments fade" title="comments">X</button>
+					<button class="delete fade" title="delete">X</button>
+				</div>
+			</div>
+			<div class="post">
+				<div class="post-date">08/06/2016</div>
+				<div class="post-title" style="text-shadow:2px 2px #70db70">Post Number Two</div>
+				<!-- title character limit should be around 30/35 -->
+				<!-- if approved, title is Green; if, unapproved, title is Orange? -->
+				<div class="post-author">SanicTheEdgehog</div>
+				<div class="post-options hidden-sm hidden-xs">
+					<button class="approve fade off" title="approve">X</button>
+					<button class="edit fade" title="edit">X</button>
+					<button class="comments fade" title="comments">X</button>
+					<button class="delete fade" title="delete">X</button>
+				</div>
+			</div>
+			<!--
+			<div style="height:150px;width:100%;background-color:red;"></div>
+			<div style="height:150px;width:100%;background-color:blue;"></div>
+			<div style="height:150px;width:100%;background-color:green;"></div>
+			<div style="height:150px;width:100%;background-color:yellow;"></div>
+			<div style="height:150px;width:100%;background-color:brown;"></div>
+			<div style="height:150px;width:100%;background-color:pink;"></div>
+			<div style="height:150px;width:100%;background-color:teal;"></div>
+			-->
+		</div>
+	</div>
+	<div id="pages-lister">
+		<div class="lister-title">PAGES</div>
+		<div id="page-list" class="lister">
+			
+		</div>
+	</div>
+	</div>
+
+	<script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="alternateEditScript.js"></script>
+</body>
+</html>
